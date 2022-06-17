@@ -1,0 +1,62 @@
+
+.container-fluid{
+    background-color: white;
+}
+.container{
+    margin-top: 45px;
+    margin-bottom: 100px;
+   
+}
+.carousel{
+    padding: 20px 30px;
+}
+.carousel-indicators [data-bs-target]{
+    position: relative;
+    top: 5vw;
+    background-color: gold ;
+}
+
+.img01{
+    width:90%;
+    
+    
+    
+    padding: 2vw;
+    
+}
+.i02{
+    position: relative;
+    left: 2vw;
+
+}
+
+.card-body{
+    text-align: center;
+   
+}
+.card-footer{
+    text-align: center;
+    border-top: none;
+    background-color: white;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(199, 188, 188) ;
+}
+
+
+hr {
+    width: 8%;
+
+    border: 5px solid black;
+   
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+
