@@ -2,19 +2,24 @@
 .container-fluid{
     background-color: white;
 }
+/*For making gaps between containers*/
 .container{
     margin-top: 45px;
     margin-bottom: 100px;
    
 }
+/*Carousel padding*/
 .carousel{
     padding: 20px 30px;
 }
+/*Carousel indicators color changing*/
 .carousel-indicators [data-bs-target]{
     position: relative;
     top: 5vw;
     background-color: gold ;
 }
+
+/*Setting up the images properly, both smartphone and laptop*/
 
 .img01{
     width:90%;
@@ -29,6 +34,7 @@
     left: 2vw;
 
 }
+/*For making texts in the card aligned from center*/
 
 .card-body{
     text-align: center;
@@ -39,13 +45,15 @@
     border-top: none;
     background-color: white;
 }
+/*Creating card-box shadow*/
 
 .card{
+    
     border: none;
     box-shadow: 5px 5px 10px rgb(199, 188, 188) ;
 }
 
-
+/*Creating hr for catagory section*/
 hr {
     width: 8%;
 
@@ -55,6 +63,25 @@ hr {
     margin-left: auto;
     margin-right: auto;
   }
+
+/*Final catagory image customization*/
+.img02{
+    width:70%;
+    
+    
+    
+    
+    padding: 2vw;
+    
+}
+
+/*Card customization - Final catagory*/
+
+.custom{
+    padding: 1vw 4vw;
+}
+
+
 
 
 
